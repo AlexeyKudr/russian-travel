@@ -1,0 +1,18 @@
+.place__paragraphs {
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    max-width: 484px;
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs { 
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}
