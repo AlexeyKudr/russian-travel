@@ -3,7 +3,7 @@
     margin: 0 auto;
     gap: 40px;
     grid-template-columns: 460px 1fr;
-    color: #fff
+    color: #fff;
 }
 
 @media screen and (max-width: 1279px) {
