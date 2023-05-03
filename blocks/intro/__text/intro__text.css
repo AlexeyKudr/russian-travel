@@ -5,20 +5,19 @@
     line-height: 163%;
     max-width: 690px;
     padding-bottom: 64px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        max-width: 720px;
+        padding-bottom: 56px;
     }
-    
-    @media screen and (max-width: 1023px) {
-        .intro__text {
-            max-width: 720px;
-            padding-bottom: 56px;
-    }
-    }
-    
-    @media screen and (max-width: 767px) {
-        .intro__text  { 
+}
+
+@media screen and (max-width: 767px) {
+    .intro__text {
         font-size: 16px;
-        line-height: 163%;
         max-width: 288px;
         padding-bottom: 34px;
     }
-    }
+}
