@@ -4,18 +4,18 @@
     margin: 0;
     color: #fff;
     font-size: 16px;
-    line-height: 93%;
+    line-height: 18px;
     font-weight: 400;
 }
 
 .footer__link:hover {
-    opacity: 50%;
+    opacity: 80%;
     transition: transform 1s ease-in-out 1s;
 }
 
 @media screen and (max-width: 767px) {
     .footer__link {
         font-size: 24px;
-        line-height: 83%;
+        line-height: 24px;
     }
 }
